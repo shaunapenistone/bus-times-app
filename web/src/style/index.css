@@ -3,7 +3,7 @@
 body {
   margin: 0;
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cabin", sans-serif;
   color: #222222;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,21 +13,98 @@ body {
   margin-top: 48px;
 }
 
+.Header {
+  font-size: x-large;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.Header_Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Bold_Header_Text {
+  color: #22a199;
+}
+
+.Card_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .Card {
   width: 440px;
-  border-radius: 6px;
+  border-radius: 15px;
   border: 1px solid #d7d7d7;
   padding: 16px 24px;
   display: flex;
   flex-direction: column;
+  margin: 10px;
+  background-color: #22a199;
+  color: white;
+  box-shadow: 5px 5px 15px 3px rgba(171, 171, 171, 0.61);
+  font-family: "Quicksand", sans-serif;
 }
 
 .Card__Header {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .Card__Details {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.Feedback_Card {
+  width: 440px;
+  border-radius: 15px;
+  border: 1px solid #d7d7d7;
+  padding: 0px 24px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  background-color: red;
+  color: white;
+  box-shadow: 5px 5px 15px 3px rgba(171, 171, 171, 0.61);
+  font-family: "Quicksand", sans-serif;
+}
+
+.Feedback_Card__Header {
+  font-size: 19px;
+  text-align: center;
+}
+
+.Todays_Buses {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 440px;
+}
+
+.Todays_Buses__Header {
+  font-size: 20px;
+  color: rgb(63, 63, 63);
+}
+
+.Todays_Buses__Card {
+  background-color: #137277;
+  color: white;
+  padding: 0px 20px;
+  margin: 0px 2px;
+  box-shadow: 5px 5px 15px 3px rgba(171, 171, 171, 0.61);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.Todays_Buses__Details {
+  font-size: 20px;
 }
